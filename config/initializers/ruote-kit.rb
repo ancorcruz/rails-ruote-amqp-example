@@ -1,4 +1,4 @@
-AMQP.settings[:host] = '127.0.0.1'
+AMQP.settings[:host] = Settings.amqp.host
 # make changes when needed
 #
 # you may use another persistent storage for example or include a worker so that
